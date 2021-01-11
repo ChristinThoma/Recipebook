@@ -1,0 +1,10 @@
+.category-container{
+    border: 1px solid blueviolet;
+    text-align: center;
+}
+
+.recipe-item > img {
+    width: 100px;
+    height: 100px;
+}
+
