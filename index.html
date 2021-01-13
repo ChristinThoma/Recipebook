@@ -11,10 +11,61 @@
       crossorigin="anonymous"
     />
     <title>Cookbook</title>
+    
   </head>
   <body>
     <div class="container-fluid">
-      <header></header>
+           <header>
+           <nav class="navbar navbar-expand-lg navbar-light navbar-color d-flex justify-content-between">
+              <a class="navbar-brand ms-3" href="#">
+                <img src="./img/dev_s_kitchen.png" alt="Logo">
+              </a>
+              <form class="d-flex" id="form" style="width:50%;">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              </form>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse ms-3 float-end" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Categories
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#one-pot">One-Pot</a></li>
+                      <li><a class="dropdown-item" href="#">No-cooking</a></li>
+                      <li><a class="dropdown-item" href="#">Simple & Beautiful</a></li>
+                      <li><a class="dropdown-item" href="#">Brainfood</a></li>
+                      <li><a class="dropdown-item" href="#">Keep Hunger away</a></li>
+                      <li><a class="dropdown-item" href="#">Vitamin-Boost</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+          </nav>
+
+          </div>
+
+           <div class="row banner">
+             <div class="col-12">
+                <div class="banner-text">
+                  <h1><img src="./img/DEVsKitchen_white.png" alt="Logo"></h1>
+                  <h2>Easy cooking to have more time for coding!</h2>
+                </div>
+            </div>
+          </div>        
+      </header>
+      
+  
 
         <!-- main container -->
         <main class="main-container row m-2">
@@ -30,7 +81,7 @@
               </div>
               <div class="recipe-container">
                 <div class="row">
-                  <div class="recipe-item col-6 my-3">
+                  <div class="recipe-item col-6 my-3" id="one-pot">
                     <img src="img/salad.jpg"  class="rounded-circle" alt="salad">
                     <p>salad</p>
                   </div>
@@ -122,10 +173,6 @@
 
       <footer></footer>
     </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-      crossorigin="anonymous"
-    ></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   </body>
 </html>
