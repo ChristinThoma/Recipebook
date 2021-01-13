@@ -13,11 +13,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,400&display=swap');
 
 
+
 .body{
     font-size:16px;
-}
-.navbar-color{
-    background-color:hotpink;
 }
 
 .banner{
@@ -30,10 +28,9 @@
 .logo-container{
     display:inline-flex;
     justify-content: flex-start;
-    align-items: center;
 }
 
-.logo-container img{
+.logo-container > img{
     max-width: 60px;
     height: auto;
     padding-left:0;
