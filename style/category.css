@@ -24,7 +24,10 @@
 }
 
 .main-container{
-    animation: categoryAnimation 1s ;
+    width: 90%;
+    margin: 0 auto;
+    animation: categoryAnimation 1s;
+    padding: 1em 0;
 }
 
 .recipe-container{
