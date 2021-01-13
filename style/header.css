@@ -1,0 +1,70 @@
+/* .nav-bar-top ul{
+    list-style-type: none;
+    display:inline-flex;
+    justify-content: space-around;
+
+}
+
+.nav-bar-top{
+    background-color:green;
+    display:flex;
+    flex-direction: row;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,400&display=swap');
+
+
+.body{
+    font-size:16px;
+}
+.navbar-color{
+    background-color:hotpink;
+}
+
+.banner{
+    background-image: url("../img/salad-2068220_1920.jpg");
+    width:auto;
+    height:27rem;
+    background-size:cover;
+    
+}
+.logo-container{
+    display:inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo-container img{
+    max-width: 60px;
+    height: auto;
+    padding-left:0;
+}
+
+
+.banner-text{
+    font-family:'Open Sans', sans-serif; ;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color:white;
+    padding:0 1rem 3rem 2rem;
+}
+
+.banner-text > h1{
+    font-weight: 500;
+ 
+}
+.banner-text > h2{
+    font-weight: 300;
+
+}
+
+.navbar-brand img{
+    max-width:60px;
+    height: auto;
+}
+h1 img{
+    max-width: 200px;
+}
+
+
