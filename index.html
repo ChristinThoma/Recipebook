@@ -21,19 +21,27 @@
     
   </head>
   <body>
-    <div class="container-fluid">
+    
+    <div class="container-fluid g-0">
+      <!-- Header-->
            <header>
-           <nav class="navbar navbar-expand-lg navbar-light navbar-color d-flex justify-content-between">
+            <div class="divider"></div>
+             <!-- Logo-->
+           
+           <nav class="navbar navbar-expand-lg navbar-color d-flex justify-content-between">
               <a class="navbar-brand ms-3" href="#">
                 <img src="./img/dev_s_kitchen.png" alt="Logo">
               </a>
+              <!-- Searchbar-->
               <form class="d-flex form-width">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               </form>
+              <!-- burger menu-->
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse ms-3 float-end" id="navbarSupportedContent">
+              <!-- collapse menu-->
+              <div class="collapse navbar-collapse ms-3 nav-justified" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -47,11 +55,11 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <li><a class="dropdown-item" href="#one-pot">One-Pot</a></li>
-                      <li><a class="dropdown-item" href="#">No-cooking</a></li>
-                      <li><a class="dropdown-item" href="#">Simple & Beautiful</a></li>
-                      <li><a class="dropdown-item" href="#">Brainfood</a></li>
-                      <li><a class="dropdown-item" href="#">Keep Hunger away</a></li>
-                      <li><a class="dropdown-item" href="#">Vitamin-Boost</a></li>
+                      <li><a class="dropdown-item" href="#no-cooking">No-cooking</a></li>
+                      <li><a class="dropdown-item" href="#simple">Simple & Beautiful</a></li>
+                      <li><a class="dropdown-item" href="#brainfood">Brainfood</a></li>
+                      <li><a class="dropdown-item" href="#keephunger">Keep Hunger away</a></li>
+                      <li><a class="dropdown-item" href="#vitamin">Vitamin-Boost</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
@@ -61,16 +69,18 @@
           </nav>
 
           </div>
-
+          <div class="divider"></div>
+    <!-- Banner-->
            <div class="row banner">
              <div class="col-12">
                 <div class="banner-text">
-                  <h1><img src="./img/DEVsKitchen_white.png" alt="Logo"></h1>
+                  <h1><img src="./img/DEVsKitchen_white.png" class="mb-3" alt="Logo"></h1>
                   <h2>Easy cooking to have more time for coding!</h2>
                 </div>
             </div>
           </div>        
       </header>
+      <div class="divider"></div>
       
  
         <!-- main container -->
@@ -385,9 +395,66 @@
           </div>
         </main>
        
+<!-- Footer -->
+<footer class="text-center text-lg-start">
+  <div class="divider"></div>
+  <!-- Quote figure bootstrap-->
+    <figure class="text-center p-4">
+      <blockquote class="blockquote">
+        <p class="fst-italic ">With this cookbook I was able to build JS in just 10 days-without starving.</p>
+      </blockquote>
+      <figcaption>
+        Brendan Eich
+      </figcaption>
+    </figure>
+    <div class="divider-short"></div>
+  <!-- Grid container -->
+  <div class="container p-5">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-4">
+        <img  class="mb-4" src="./img/DEVsKitchen_white.png" width="200px" alt="">
 
-      <footer></footer>
+        <p>
+          We are passionate about coding and eating. So why not combinging the two things? This is DEV's Kitchen! Enjoy some thought through recipes with a low budget and great energy boosts.
+        </p>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4 social-heading">Be social! Talk to us:)</h5>
+
+        <ul class="list-social-media mb-0 d-flex justify-content-center justify-content-md-start p-0">
+          <li>
+            <a href="#!" class="text-dark me-2"> <img src="./icons/facebook.png" alt=""></a>
+          </li>
+          <li>
+            <a href="#!" class="text-dark me-2"><img src="./icons/instagram.png" alt=""></a>
+          </li>
+          <li>
+            <a href="#!" class="text-dark me-2"><img src="./icons/twitter.png" alt=""></a>
+          </li>
+          <li>
+            <a href="#!" class="text-dark"><img src="./icons/youtube.png" alt=""></a>
+          </li>
+        </ul>
+      </div>
     </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3 copyright">
+    © 2021 Copyright: Group 5- Kajal, Massimiliano, Christin
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+  
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   </body>
 </html>
+
