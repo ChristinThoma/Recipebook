@@ -1,9 +1,13 @@
 .section-title {
-  color: #f23535;
+  color: #f0450b;
 }
 
 .section-border {
-  border: 1px solid #f25c5c;
+  border: 1px solid #f0450b;
+}
+
+.section-paragraph {
+  line-height: 2rem;
 }
 
 .table-body > tr > th {
@@ -15,14 +19,14 @@
 }
 
 .table-body > tr:nth-of-type(odd) {
-  background-color: rgba(242, 92, 92, 0.3);
+  background-color: #edc099;
 }
 
 .recipe-circle {
   width: 9rem;
   height: 9rem;
   position: relative;
-  background-color: rgba(242, 53, 53, 0.5);
+  background-color: #edc099;
 }
 
 .recipe-circle-icon {
@@ -31,7 +35,7 @@
 }
 
 .recipe-circle-image {
-  border: 1px solid #f25c5c;
+  border: 1px solid #f0450b;
   opacity: 1;
   position: absolute;
   top: 0;
