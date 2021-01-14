@@ -2,7 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <link rel="icon" href="./favicon.ico" />
     <!-- Google font -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -21,14 +25,91 @@
   </head>
   <body>
     <div class="container-fluid">
-      <header></header>
-      <main class="row py-4">
-        <div class="col-12 col-md-6">
-          <section class="section-border rounded-3 shadow py-2 px-3 my-4">
+      <header>
+        <nav
+          class="navbar navbar-expand-lg navbar-light navbar-color d-flex justify-content-between"
+        >
+          <a class="navbar-brand ms-3" href="./index.html">
+            <img src="./img/dev_s_kitchen.png" alt="Logo" />
+          </a>
+          <form class="d-flex form-width">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+          </form>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse ms-3 float-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Categories
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#one-pot">One-Pot</a></li>
+                  <li><a class="dropdown-item" href="#">No-cooking</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Simple & Beautiful</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Brainfood</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Keep Hunger away</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Vitamin-Boost</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="row banner">
+          <div class="col-12">
+            <div class="banner-text">
+              <h1><img src="./img/DEVsKitchen_white.png" alt="Logo" /></h1>
+              <h2>Easy cooking to have more time for coding!</h2>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="row py-5 justify-content-around">
+        <div class="col-12 col-md-10 col-lg-5 mb-5 mb-lg-0">
+          <section
+            class="section-border rounded-3 shadow py-5 px-3 h-100 d-flex flex-column justify-content-start"
+          >
             <h2 class="my-3 text-center section-title">
               No-Bake Chocolate Chip Granola Bars
             </h2>
-            <p class="my-3">
+            <p class="my-3 section-paragraph">
               Direction: a large bowl, stir oats and rice cereal together. Set
               aside. In a small pot, melt butter, honey and brown sugar together
               over medium high heat until it comes to a bubble. Reduce the heat
@@ -43,8 +124,10 @@
             </p>
           </section>
         </div>
-        <div class="col-12 col-md-6">
-          <section class="section-border rounded-3 shadow py-2 px-3 my-4">
+        <div class="col-12 col-md-10 col-lg-5">
+          <section
+            class="section-border rounded-3 shadow py-5 px-3 h-100 d-flex flex-column justify-content-start"
+          >
             <h2 class="text-center my-3 section-title">Ingredients</h2>
             <table class="table align-middle">
               <thead class="text-center table-head">
@@ -89,7 +172,7 @@
             </table>
           </section>
         </div>
-        <div class="col-12 text-center mt-4">
+        <div class="col-12 text-center py-5">
           <h3 class="my-4 fst-italic section-title">Suggested recipes</h3>
           <div
             class="d-flex justify-content-around justify-content-lg-start justify-content-xl-center align-items-center flex-wrap px-2"
