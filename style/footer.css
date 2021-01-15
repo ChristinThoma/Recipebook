@@ -5,8 +5,14 @@ footer{
 
 .list-social-media{
     list-style-type: none;
-    width:100%;
 
+
+}
+
+.list-social-media img:hover{
+    background-color: #EDC099;
+    border-radius:50%;
+    
 }
 
 .divider{
