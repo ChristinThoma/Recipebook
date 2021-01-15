@@ -5,13 +5,19 @@ footer{
 
 .list-social-media{
     list-style-type: none;
-    width:100%;
 
+
+}
+
+.list-social-media img:hover{
+    background-color: #EDC099;
+    border-radius:50%;
+    
 }
 
 .divider{
     width:100%;
-    border:2px solid #EDC099;
+    border: 2px solid #EDC099;
 }
 .divider-short{
     width: 20%;

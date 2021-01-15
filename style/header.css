@@ -38,6 +38,14 @@
     color: #25160F;
 }
 
+.nav-item:hover{
+    background-color: #EDC099;
+}
+
+.dropdown-menu{
+    color: #25160F;
+    background-color:#EDC099;
+}
 
 .banner-text{
     font-family:'Open Sans', sans-serif; ;
