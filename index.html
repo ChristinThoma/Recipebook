@@ -32,7 +32,7 @@
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         </form>
         <!-- burger menu-->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -83,9 +83,9 @@
     <main class="main-container">
       <div class="row gy-4">
         <!-- cetogory One-Pot-fits-all START-->
-        <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="col-lg-4 col-md-6 col-sm-12" >
           <div class="category-container p-3">
-            <div class="category-content">
+            <div class="category-content" id="no-cooking">
               <h2>One-Pot-fits-all</h2>
               <p>
                 We don’t want to make it more complicated than it is. Throw everything in one pot and get an amazing
@@ -163,7 +163,7 @@
         <!-- cetogory NO-cook-dishes START-->
         <div class="col-lg-4 col-md-6 col-sm-12">
           <div class="category-container p-3">
-            <div class="category-content">
+            <div class="category-content" id="no-cooking">
               <h2>NO-cook-dishes</h2>
               <p>
                 Well, we are programmers, not chefs. What about not even bother to put on the stove. Find no-cooking dishes below.
@@ -238,7 +238,7 @@
         <!-- cetogory Simple-is-beautiful START -->
         <div class="col-lg-4 col-md-6 col-sm-12">
           <div class="category-container p-3">
-            <div class="category-content">
+            <div class="category-content" id="simple">
               <h2>Simple-is-beautiful</h2>
               <p>
                 We want to write clean and easy understanding code- lets cook the same way. Here you find some simple but convincing recipes.
@@ -312,7 +312,7 @@
         <!-- cetogory Feed your brain START -->
         <div class="col-lg-4 col-md-6 col-sm-12">
           <div class="category-container p-3">
-            <div class="category-content">
+            <div class="category-content" id="brainfood">
               <h2>Feed your brain</h2>
               <p>
                 our brain is working out the whole time, give it a nice treat. Leafy green vegetables are rich in brain-healthy nutrients.
@@ -386,7 +386,7 @@
         <!-- cetogory Keep the hunger away START -->
         <div class="col-lg-4 col-md-6 col-sm-12">
           <div class="category-container p-3">
-            <div class="category-content">
+            <div class="category-content" id="keephunger">
               <h2> Keep the hunger away</h2>
               <p>
                 You don’t have time to cook multiple times a day? A high protein diet can boost metabolism and reduce appetite, helping you to survive the day with just one dish!
@@ -460,7 +460,7 @@
         <!-- cetogory Keep the hunger away START -->
         <div class="col-lg-4 col-md-6 col-sm-12">
           <div class="category-container p-3">
-            <div class="category-content">
+            <div class="category-content" id="vitamin">
               <h2>Vitamin-boost-recipe</h2>
               <p>
                 ou have been sitting in dark cellar the whole day, just staring at your PC? No worries- with these recipes you dont even need to get outside the house to catch some sun.
@@ -542,7 +542,7 @@
       <!-- Quote figure bootstrap-->
       <figure class="text-center p-4">
         <blockquote class="blockquote">
-          <p class="fst-italic ">With this cookbook I was able to build JS in just 10 days-without starving.</p>
+          <p class="fst-italic ">"With this cookbook I was able to build JS in just 10 days-without starving"</p>
         </blockquote>
         <figcaption>
           Brendan Eich
@@ -554,20 +554,22 @@
         <!--Grid row-->
         <div class="row">
           <!--Grid column-->
-          <div class="col-lg-6 col-md-12 mb-4 mb-md-4">
+          <div class="col-lg-4 col-md-12 mb-4 mb-md-4">
             <img class="mb-4" src="./img/DEVsKitchen_white.png" width="200px" alt="">
-
-            <p>
+          </div>
+          <!--Grid column-->
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-12 mb-4 mb-md-4 text-center">
+              <p>
               We are passionate about coding and eating. So why not combinging the two things? This is DEV's Kitchen!
               Enjoy some thought through recipes with a low budget and great energy boosts.
             </p>
           </div>
           <!--Grid column-->
-
           <!--Grid column-->
-          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <div class="col-lg-4 col-md-12 mb-4 mb-md-0 d-flex flex-column algin-items-center align-items-lg-end">
             <h5 class="text-uppercase mb-4 social-heading">Be social! Talk to us:)</h5>
-            <ul class="list-social-media mb-0 d-flex justify-content-center justify-content-md-start p-0">
+            <ul class="list-social-media mb-0 d-flex justify-content-center justify-content-lg-start p-0">
               <li>
                 <a href="#!" class="text-dark me-2"> <img src="./icons/facebook.png" alt=""></a>
               </li>
